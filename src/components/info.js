@@ -9,7 +9,6 @@ const listInfo = {
 }
 
 function Info(){
-    const nowId = useChangeTest(2)
     const store =useStore()
     const data = useSelector(state => state.count)
     console.log(store.getState(), data)
